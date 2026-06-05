@@ -581,4 +581,14 @@ Potential improvements include:
 
 ## 👨‍💻 Author
 
-Developed as a Data Warehouse and Data Engineering project using SQL Server, T-SQL, ETL Pipelines, and Dimensional Modeling principles.
+**Purva Kalamabte**  
+B.Tech – Electronics & Communication (ENC) Engineering  
+
+- 🎓 Bachelor of Technology in Electronics & Communication Engineering  
+- 🏆 Qualified **GATE 2025** with **AIR 8067**  
+- 📄 Published **2 Research Papers** in Machine Learning (CNN-based Models)  
+- 💡 Interested in Data Engineering, Machine Learning, and Data Analytics  
+- 🛠️ Skilled in SQL Server, T-SQL, Data Warehousing, ETL Development, Python, PowerBI, Excel  
+
+---
+
