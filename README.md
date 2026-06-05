@@ -28,6 +28,7 @@ The project follows modern Data Engineering and Data Warehousing best practices,
 
 # 📂 Data Sources
 
+![data_integration](./docs/data_integration.png)
 The warehouse integrates data from two business systems.
 
 ## CRM System
@@ -65,6 +66,8 @@ erp_px_cat_g1v2
 ```
 
 ---
+## 🔄 Data Flow Diagram
+![data_flow](./docs/data_flow.png)
 
 # 🥉 Bronze Layer
 
@@ -220,8 +223,8 @@ Implemented as SQL Views.
 
 ---
 
-# ⭐ Star Schema
-
+## ⭐ Star Schema
+![data_model](./docs/data_model.png)
 ## Fact Table
 
 ### fact_sales
