@@ -22,32 +22,7 @@ The project follows modern Data Engineering and Data Warehousing best practices,
 # 🏗️ Architecture
 
 ## Medallion Architecture
-
-```text
-CRM + ERP CSV Files
-        │
-        ▼
- ┌─────────────┐
- │ Bronze Layer│
- │ Raw Data    │
- └─────────────┘
-        │
-        ▼
- ┌─────────────┐
- │ Silver Layer│
- │ Cleaned Data│
- └─────────────┘
-        │
-        ▼
- ┌─────────────┐
- │ Gold Layer  │
- │ Business    │
- │ Ready Data  │
- └─────────────┘
-        │
-        ▼
- Power BI | SQL Analytics | Machine Learning
-```
+![Architecture Diagram](./docs/data_architecture.png)
 
 ---
 
