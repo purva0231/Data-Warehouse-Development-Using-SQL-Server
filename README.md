@@ -282,7 +282,8 @@ Stores transactional sales information.
 
 ---
 
-# 🔑 Surrogate Keys
+# Important Points
+## 🔑 Surrogate Keys
 
 Generated using:
 
@@ -305,7 +306,7 @@ Benefits:
 
 ---
 
-# 🔄 Slowly Changing Dimension Logic
+## 🔄 Slowly Changing Dimension Logic
 
 Product history tracking is implemented using:
 
@@ -323,7 +324,7 @@ WHERE prd_end_dt IS NULL
 
 ---
 
-# ⚙️ ETL Pipeline
+## ⚙️ ETL Pipeline
 
 ## Step 1: Load Bronze Layer
 
@@ -363,27 +364,27 @@ FROM gold.fact_sales;
 
 ---
 
-# 📊 Business Calculations
+## 📊 Business Calculations
 
-## Revenue
+## 1. Revenue
 
 ```sql
 SUM(sales_amount)
 ```
 
-## Total Orders
+## 2. Total Orders
 
 ```sql
 COUNT(order_number)
 ```
 
-## Quantity Sold
+## 3. Quantity Sold
 
 ```sql
 SUM(quantity)
 ```
 
-## Average Order Value
+## 4. Average Order Value
 
 ```sql
 AVG(sales_amount)
@@ -391,7 +392,7 @@ AVG(sales_amount)
 
 ---
 
-# 🛡️ Error Handling
+## 🛡️ Error Handling
 
 Implemented using:
 
@@ -417,7 +418,7 @@ Benefits:
 
 ---
 
-# ⏱️ ETL Monitoring
+## ⏱️ ETL Monitoring
 
 Execution times are tracked using:
 
@@ -437,23 +438,23 @@ Tracks:
 
 ---
 
-# 📈 Analytics Capabilities
+## 📈 Analytics Capabilities
 
 The Data Warehouse supports:
 
-## Sales Analytics
+## 1. Sales Analytics
 
 - Revenue Analysis
 - Sales Trends
 - Order Analysis
 
-## Customer Analytics
+## 2. Customer Analytics
 
 - Customer Segmentation
 - Demographic Analysis
 - Country Analysis
 
-## Product Analytics
+## 3. Product Analytics
 
 - Product Performance
 - Category Analysis
@@ -461,7 +462,7 @@ The Data Warehouse supports:
 
 ---
 
-# 📊 Reporting & BI
+## 📊 Reporting & BI
 
 The Gold Layer is designed for:
 
@@ -502,7 +503,7 @@ Potential improvements include:
 - Star Schema
 - Dimensional Modeling
 - Medallion Architecture
-- Power BI
+  
 
 ---
 
@@ -529,11 +530,6 @@ Potential improvements include:
 - Views
 - Error Handling
 
-### Business Intelligence
-
-- KPI Development
-- Reporting Models
-- Analytical Data Design
 
 ---
 
